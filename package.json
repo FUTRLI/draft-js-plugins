@@ -46,10 +46,8 @@
     "eslint-plugin-no-only-tests": "^3.0.0",
     "eslint-plugin-react": "^7.31.8",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "husky": "^8.0.1",
     "jest": "^27.5.1",
     "linaria": "2.1",
-    "lint-staged": "^13.0.3",
     "matched": "^5.0.1",
     "multer": "^1.4.4",
     "prettier": "^2.7.1",
@@ -96,8 +94,7 @@
     "build": "yarn build:dts && yarn workspaces run build",
     "build:dts": "yarn workspace @draft-js-plugins/editor run build && yarn workspace @draft-js-plugins/utils run build && yarn workspace @draft-js-plugins/buttons run build",
     "prerelease": "yarn build",
-    "release": "changeset publish",
-    "postinstall": "husky install"
+    "release": "changeset publish"
   },
   "workspaces": [
     "packages/*"
