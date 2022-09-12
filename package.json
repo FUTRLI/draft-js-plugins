@@ -73,16 +73,6 @@
     "wysiwyg"
   ],
   "license": "MIT",
-  "lint-staged": {
-    "*.(js|ts|tsx)": [
-      "prettier --write",
-      "git add",
-      "eslint"
-    ],
-    "*.(ts|tsx)": [
-      "bash -c tsc --noEmit"
-    ]
-  },
   "main": "lib/index.js",
   "prettier": {
     "singleQuote": true,
