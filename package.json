@@ -1,7 +1,7 @@
 {
   "name": "@futrli/draft-js-plugins",
   "description": "A Plugin Architecture on top of Draft.JS",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": {
     "name": "Nik Graf",
     "email": "nik@nikgraf.com",
