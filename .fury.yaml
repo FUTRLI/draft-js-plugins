@@ -1,0 +1,3 @@
+builds:
+  - pack: packages/mention
+  - pack: packages/editor
