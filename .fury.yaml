@@ -1,3 +1,6 @@
+only: tags
 builds:
-  - dir: /packages/mention
-    pack: javascript
+  - dir: packages/mention
+    pack: js
+  - dir: packages/editor
+    pack: js
