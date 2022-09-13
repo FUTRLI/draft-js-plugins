@@ -1,6 +1,5 @@
-only: tags
 builds:
   - dir: packages/mention
-    pack: js
+    pack: npm
   - dir: packages/editor
-    pack: js
+    pack: npm
