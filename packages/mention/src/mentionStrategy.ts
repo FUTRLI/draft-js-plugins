@@ -1,4 +1,5 @@
 import { ContentBlock, ContentState } from 'draft-js';
+
 import getTypeByTrigger from './utils/getTypeByTrigger';
 
 const findMentionEntities = (triggers: string[]) => (
