@@ -1,5 +1,0 @@
-builds:
-  - dir: packages/mention
-    pack: npm
-  - dir: packages/editor
-    pack: npm
